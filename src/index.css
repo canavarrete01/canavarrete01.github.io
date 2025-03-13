@@ -95,12 +95,13 @@ code {
 }
 
 .badge.tag-mod {
-  background-color: #2a2424;
-  color: #d6d1cc;
+  background-color: #666064;
+  color: #F6F7EB;
   padding: 0.5em 1em;
-  border-radius: 0.25rem;
-  font-size: 0.80rem;
+  border-radius: 0.50rem;
+  font-size: 0.70rem;
   margin-right: 0.5em;
+  justify-content: center;
 }
 
 .badge.tag-mod-skill {
@@ -116,9 +117,8 @@ code {
 
 
 .header-mod{
-  background-color: #b23241d6 ;
   background-color: #a0b878;
-  color:#f9f3f4;
+  color: #F6F7EB;
   border-radius: 0.50rem;
   padding-left: 5px;
 }

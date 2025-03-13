@@ -30,6 +30,7 @@ function App() {
           <Button variant="ghost" onClick={() => scrollToSection("home")}>Home</Button>
           <Button variant="ghost" onClick={() => scrollToSection("resume")}>Resume</Button>
           <Button variant="ghost" onClick={() => scrollToSection("projects")}>Projects</Button>
+          <Button variant="ghost" onClick={() => scrollToSection("extra")}>Extra</Button>
           <Button variant="ghost" onClick={() => scrollToSection("contact")}>Contact</Button>
           </nav>
         </header>
@@ -287,40 +288,24 @@ function App() {
       <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
       
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
+        <img src="../images/projects/hungryaustin.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">Hungry Austin</h4>
           <p className="text-gray-600 mb-4">
           Developed a Yelp-like web app that categorized Austin restaurants by cuisine, price, and location using food-based APIs.
           Led front-end development, designing an intuitive UX/UI.
           Optimized SQL queries and database schema, improving data retrieval speed and efficiency.
           Implemented web scraping to enhance data accuracy and reduce API call latency.
-
+          
           </p>
+          <span class="badge tag-mod">SQL</span>
+          <span class="badge tag-mod">Python</span>
+          <span class="badge tag-mod">Postgres</span>
+          <span class="badge tag-mod">HTML/CSS</span>
+          <span class="badge tag-mod">Git</span>
         </div>
+
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">VAST Challenge</h4>
-          <p className="text-gray-600 mb-4">
-          Developed interactive visualizations to analyze water pollution trends from hydrology datasets.
-          Applied data reduction, binning, and GUI-based exploration techniques to identify key insights.
-
-          </p>
-        </div>
-        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">Game Development</h4>
-          <p className="text-gray-600 mb-4">
-          Designed and built an endless runner arcade game inspired by Jetpack Joyride.
-          Implemented motion mechanics, user interactions, and dynamic graphics.
-          Utilized object-oriented programming to manage game logic and UI elements.
-
-          </p>
-        </div>
-      </div>
-      
-      <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
-       <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
+        <img src="./images/projects/website.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">This Website!</h4>
           <p className="text-gray-600 mb-4">
         Handmade portfolio website using React, Tailwind CSS, and Javascript,.
@@ -328,7 +313,55 @@ function App() {
         Utilized GitHub for version control and open source collaboration for future users of template.
 
           </p>
+          <span class="badge tag-mod">Javascript</span>
+          <span class="badge tag-mod">React</span>
+          <span class="badge tag-mod">HTML/CSS</span>
+          <span class="badge tag-mod">Git</span>
         </div>
+
+        {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="./images/Projects/vast.png" alt="Project 1 Image" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">VAST Challenge</h4>
+          <p className="text-gray-600 mb-4">
+          Developed interactive visualizations to analyze water pollution trends from hydrology datasets.
+          Applied data reduction, binning, and GUI-based exploration techniques to identify key insights.
+
+          </p>
+          <span class="badge tag-mod">Python</span>
+          <span class="badge tag-mod">Matplotlib</span>
+          <span class="badge tag-mod">Pandas</span>
+        </div> */}
+
+        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="./images/projects/gamedev.png" alt="Project 1 Image" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">Game Development</h4>
+          <p className="text-gray-600 mb-4">
+          Designed and built an endless runner arcade game inspired by Jetpack Joyride.
+          Implemented motion mechanics, user interactions, and dynamic graphics.
+          Utilized object-oriented programming to manage game logic and UI elements.
+
+          </p>
+          <span class="badge tag-mod">Java</span>
+          <span class="badge tag-mod">Processing</span>
+          <span class="badge tag-mod">Linux</span>
+        </div>
+      </div>
+      
+      <div className="flex flex-col lg:flex-row items-center justify-center p-2">
+       {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="./images/projects/website.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">This Website!</h4>
+          <p className="text-gray-600 mb-4">
+        Handmade portfolio website using React, Tailwind CSS, and Javascript,.
+        Implemented responsive design for optimal viewing on various devices.
+        Utilized GitHub for version control and open source collaboration for future users of template.
+
+          </p>
+          <span class="badge tag-mod">Javascript</span>
+          <span class="badge tag-mod">React</span>
+          <span class="badge tag-mod">HTML/CSS</span>
+          <span class="badge tag-mod">Git</span>
+        </div> */}
         {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">NYC Matcha Madness</h4>
@@ -349,6 +382,29 @@ function App() {
 
 </div>
 
+{/* <div id = "extra" className="p-1">
+<div className="p-10 mt-25">
+      <div className = "header-mod">
+      <h2 className="font-bold mb-4 lg:text-left">Extra</h2>
+      </div>
+      <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
+     
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">Game Development</h4>
+          <p className="text-gray-600 mb-4">
+          Designed and built an endless runner arcade game inspired by Jetpack Joyride.
+          Implemented motion mechanics, user interactions, and dynamic graphics.
+          Utilized object-oriented programming to manage game logic and UI elements.
+
+          </p>
+          <span class="badge tag-mod">Java</span>
+          <span class="badge tag-mod">Processing</span>
+          <span class="badge tag-mod">Linux</span>
+        </div>
+      </div>
+
+</div> */}
+
+
 <hr></hr>
 
       {/* Contact Me Section */}
@@ -364,6 +420,7 @@ function App() {
               Subject
             </label>
             <input
+              style={{ backgroundColor: 'white' }}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="subject"
               type="text"
@@ -375,6 +432,7 @@ function App() {
               Email
             </label>
             <input
+              style={{ backgroundColor: 'white' }}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
@@ -386,6 +444,7 @@ function App() {
               Message
             </label>
             <textarea
+              style={{ backgroundColor: 'white' }}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="message"
               rows="4"
