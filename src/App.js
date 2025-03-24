@@ -288,7 +288,7 @@ function App() {
       <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
       
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="../images/projects/hungryaustin.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
+        <img src="../images/hungryaustin.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">Hungry Austin</h4>
           <p className="text-gray-600 mb-4">
           Developed a Yelp-like web app that categorized Austin restaurants by cuisine, price, and location using food-based APIs.
@@ -305,7 +305,7 @@ function App() {
         </div>
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/projects/website.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
+        <img src="./images/website.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">This Website!</h4>
           <p className="text-gray-600 mb-4">
         Handmade portfolio website using React, Tailwind CSS, and Javascript,.
@@ -333,7 +333,7 @@ function App() {
         </div> */}
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/projects/gamedev.png" alt="Project 1 Image" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
+        <img src="./images/gamedev.png" alt="Project 1 Image" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">Game Development</h4>
           <p className="text-gray-600 mb-4">
           Designed and built an endless runner arcade game inspired by Jetpack Joyride.
