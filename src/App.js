@@ -369,9 +369,14 @@ function App() {
           <p className="text-gray-600 mb-4">
           A notion template for organizing your life, work, and projects. Save and edit to your heart's content!
           </p>
+          <button className = "project_button" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `cnavarrete-template.notion.site`;
+            }}>
+              Notion Template
+        </button> 
           
-          <a href="cnavarrete-template.notion.site" className="text-blue-600 hover:underline">Notion Template</a>
-        
+
         </div>
 
         {/* VS Code Theme */}
@@ -382,7 +387,12 @@ function App() {
           A neon space-themed dark VS code theme for all your coding needs.
           Find through the VS Code extensions tab or through the link below!
           </p>
-        <a href="https://marketplace.visualstudio.com/items?itemName=CarolinaNav.space-jam-dark" className="text-blue-600 hover:underline">Visual Studio Marketplace</a>
+        <button className = "project_button" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `https://marketplace.visualstudio.com/items?itemName=CarolinaNav.space-jam-dark`;
+            }}>
+              Visual Studio Marketplace
+        </button> 
         </div>
 
       </div>

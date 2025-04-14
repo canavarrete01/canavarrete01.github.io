@@ -77,6 +77,18 @@ button:hover {
   background-color: #aecb7782;
 
 }
+button.project_button {
+  /* font-family: inherit; */
+  letter-spacing: 0.50px;
+  background-color: #2a2424 !important;
+  color: #e7e4e1 !important;
+  padding: 0.5em 1em;
+  margin: 0.3em;
+  border-radius: 0.25rem !important;
+  font-size: 0.80rem;
+  display: inline-flex;
+  border: none !important;
+}
 
 icons {
   border-radius: 20px;
