@@ -319,19 +319,6 @@ function App() {
           <span class="badge tag-mod">Git</span>
         </div>
 
-        {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/Projects/vast.png" alt="Project 1 Image" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">VAST Challenge</h4>
-          <p className="text-gray-600 mb-4">
-          Developed interactive visualizations to analyze water pollution trends from hydrology datasets.
-          Applied data reduction, binning, and GUI-based exploration techniques to identify key insights.
-
-          </p>
-          <span class="badge tag-mod">Python</span>
-          <span class="badge tag-mod">Matplotlib</span>
-          <span class="badge tag-mod">Pandas</span>
-        </div> */}
-
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/gamedev.png" alt="Project 1 Image" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">Game Development</h4>
@@ -348,20 +335,6 @@ function App() {
       </div>
       
       <div className="flex flex-col lg:flex-row items-center justify-center p-2">
-       {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/projects/website.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">This Website!</h4>
-          <p className="text-gray-600 mb-4">
-        Handmade portfolio website using React, Tailwind CSS, and Javascript,.
-        Implemented responsive design for optimal viewing on various devices.
-        Utilized GitHub for version control and open source collaboration for future users of template.
-
-          </p>
-          <span class="badge tag-mod">Javascript</span>
-          <span class="badge tag-mod">React</span>
-          <span class="badge tag-mod">HTML/CSS</span>
-          <span class="badge tag-mod">Git</span>
-        </div> */}
         {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">NYC Matcha Madness</h4>
@@ -376,33 +349,46 @@ function App() {
         <a href="/Matcha" className="text-blue-500 hover:underline">Check Out Site Here</a>
           </p>
         </div> */}
-        {/* add bootstrap tags here for languages */}
+
       </div>
-      </div>
+    </div>
 
 </div>
 
-{/* <div id = "extra" className="p-1">
+<div id = "extra" className="p-1">
 <div className="p-10 mt-25">
       <div className = "header-mod">
       <h2 className="font-bold mb-4 lg:text-left">Extra</h2>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
-     
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">Game Development</h4>
-          <p className="text-gray-600 mb-4">
-          Designed and built an endless runner arcade game inspired by Jetpack Joyride.
-          Implemented motion mechanics, user interactions, and dynamic graphics.
-          Utilized object-oriented programming to manage game logic and UI elements.
+      <div className="flex flex-col lg:flex-row items-center justify-center p-2">
 
+        {/* Notion Template */}
+        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="./images/5.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
+          <h4 className="text-2xl font-bold text-gray-900 mb-4">Notion Template</h4>
+          <p className="text-gray-600 mb-4">
+          A notion template for organizing your life, work, and projects. Save and edit to your heart's content!
           </p>
-          <span class="badge tag-mod">Java</span>
-          <span class="badge tag-mod">Processing</span>
-          <span class="badge tag-mod">Linux</span>
+          
+          <a href="cnavarrete-template.notion.site" className="text-blue-600 hover:underline">Notion Template</a>
+        
         </div>
+
+        {/* VS Code Theme */}
+        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="./images/6.png" alt="VS Code Theme Image" className="mx-auto object-cover mb-4" />
+          <h4 className="text-2xl font-bold text-gray-900 mb-4">VS Code Custom Theme</h4>
+          <p className="text-gray-600 mb-4">
+          A neon space-themed dark VS code theme for all your coding needs.
+          Find through the VS Code extensions tab or through the link below!
+          </p>
+        <a href="https://marketplace.visualstudio.com/items?itemName=CarolinaNav.space-jam-dark" className="text-blue-600 hover:underline">Visual Studio Marketplace</a>
+        </div>
+
+      </div>
       </div>
 
-</div> */}
+</div>
 
 
 <hr></hr>
@@ -410,9 +396,9 @@ function App() {
       {/* Contact Me Section */}
 <div id = "contact" className="p-1">
       <div className="p-10">
-      {/* <div className = "header-mod">
+      <div className = "header-mod">
       <h2 className="font-bold mb-4 lg:text-left"></h2>
-      </div> */}
+      </div>
         <h4 className="text-3xl font-bold text-gray-900 mb-4 text-center lg:text-left">Contact Me</h4>
         <form className="w-full max-w-lg mx-auto mt-10">
           <div className="mb-4">
