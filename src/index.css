@@ -47,6 +47,7 @@ body {
 
 nav {
   background-color: #a0b878;
+  height: 50px;
 }
 
 h1 {
@@ -56,7 +57,7 @@ h1 {
 
 button {
   /* all: unset; */
-  border-radius: 20% !important; 
+  border-radius: 15%!important; 
   border-width: 1.25px;
   border-color: #76953e80;
   padding: 0.6em 1.5em; 
@@ -64,7 +65,8 @@ button {
   font-weight: 550;
   font-family: inherit;
   letter-spacing: 1.5px;
-  background-color: #76953e4c !important;
+  background-color: #a0b878 !important;
+  /* background-color: #76953e4c !important; */
   /* color: rgb(2, 11, 2)!important; */
   margin-right: 20px;
   border: none;
@@ -74,7 +76,7 @@ button:hover {
   border-color: #dfe8d1;
   filter: drop-shadow(0 0 0.5em #dfe8d1);
   transform: translateY(3px);
-  background-color: #aecb7782;
+  /* background-color: #aecb7782; */
 
 }
 button.project_button {

@@ -26,7 +26,7 @@ function App() {
      {/* Navigation Bar */}
       <div>
         <header>
-        <nav className="shadow-md w-full flex-no-wrap flex justify-end fixed top-5 left-0 p-1 z-50">
+        <nav className="shadow-md w-full flex-no-wrap flex justify-end fixed left-0 p-1 z-30">
           <Button variant="ghost" onClick={() => scrollToSection("home")}>Home</Button>
           <Button variant="ghost" onClick={() => scrollToSection("resume")}>Resume</Button>
           <Button variant="ghost" onClick={() => scrollToSection("projects")}>Projects</Button>
@@ -308,8 +308,8 @@ function App() {
         <img src="./images/website.png" alt="Project 1 Image" className="mx-auto object-cover mb-4" />
           <h4 className="text-3xl font-bold text-gray-900 mb-4">This Website!</h4>
           <p className="text-gray-600 mb-4">
-        Handmade portfolio website using React, Tailwind CSS, and Javascript,.
-        Implemented responsive design for optimal viewing on various devices.
+        Handmade portfolio website using React, Tailwind CSS, and Javascript. 
+        Implemented responsive design for optimal viewing.
         Utilized GitHub for version control and open source collaboration for future users of template.
 
           </p>
@@ -371,10 +371,10 @@ function App() {
           </p>
           <button className = "project_button" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `cnavarrete-template.notion.site`;
+              window.location.href = `cn-template.notion.site`;
             }}>
               Notion Template
-        </button> 
+          </button> 
           
 
         </div>
