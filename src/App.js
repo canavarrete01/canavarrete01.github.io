@@ -6,8 +6,6 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Badge from 'react-bootstrap/Badge';
 
-
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -138,12 +136,8 @@ function App() {
             <li>Ingested JWST data into SIMPLE, an online database of hundreds of stellar objects hosted by BDNYC, using Python, SQL, and AWS.
             </li>
           </p>
-{/* 
-          <p className="text-gray-600 mb-4">
-            <strong>Skills:</strong> HPC cluster optimization, data analysis, database management, data ingestion, Python packaging, GitHub collaboration, science communication.
-          </p> */}
 
-          {/* <Badge bg="dark">Primary</Badge> */}
+          {/* Badges */}
           <div className="mt-3">
           <span class="badge tag-mod">Python</span>
           <span class="badge tag-mod">SQL</span>
@@ -170,11 +164,8 @@ function App() {
         <li> Visualized exoplanet atmospheric models to compare Bayesian inference methods (MCMC vs. HMC) across 1D and 2D planetary models.</li>
         <li> Collaborated with a team of 10 researchers to develop a Python package for Bayesian inference, improving data analysis and visualization.</li>
         </p>
-
       
-      {/* <p className="text-gray-600 mb-4">
-        <strong>Skills:</strong> Python, Julia, Open Source Software, GitHub, Bayesian Inference, Data Visualization, Science Communication.
-      </p> */}
+      {/* Badges */}
       <div className="mt-3">
       <span class="badge tag-mod">Python</span>
       <span class="badge tag-mod">Julia</span>
@@ -186,7 +177,6 @@ function App() {
      </div>
      
       
-
       {/* Role #3 */}
       {/* Two column for data and location */}
       <div className="flex flex-col lg:flex-row w-full mb-2">
@@ -204,7 +194,8 @@ function App() {
           <li>Led Python boot camps, teaching data science essentials including Matplotlib, NumPy, and Conda environments.</li>
 
         </p>
-
+      
+      {/* Badges */}
       <div className="mt-3">
       <span class="badge tag-mod">Python</span>
       <span class="badge tag-mod">Science Communication</span>
@@ -403,7 +394,8 @@ function App() {
 
 <hr></hr>
 
-      {/* Contact Me Section */}
+
+{/* Contact Me Section */}
 <div id = "contact" className="p-1">
       <div className="p-10">
       <div className = "header-mod">
@@ -469,7 +461,7 @@ function App() {
 
 
 
-    {/* Footer */}
+{/* Footer */}
       <footer>
         <p>&copy; 2025</p>
         {/* add linked bootstrap icons  */}
