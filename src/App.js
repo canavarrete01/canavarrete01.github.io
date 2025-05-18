@@ -83,7 +83,7 @@ function App() {
               </div>
               </a>
 
-              <a href = "./images/Resume.pdf">
+              <a href = "./images/CA_Navarrete_Resume.pdf">
               <div className="flex flex-col items-center hover:transform hover:translate-y-1">
                 <img src="./images/file-earmark-person-fill.svg" alt="Resume Logo" className="w-10 h-10" /> 
             </div>
@@ -131,9 +131,13 @@ function App() {
 
           <p className="mt-1 text-gray-600 mb-2">
             <li>
-            Analyzed James Webb Space Telescope substellar data using MCMC inverse methods on high-performance computing (HPC) clusters, managing several astrophysical experiments by implementing cluster optimization.
+            Ingested JWST data into SIMPLE, an online database of hundreds of stellar objects hosted by BDNYC, using Python, SQL, and AWS.
             </li>
-            <li>Ingested JWST data into SIMPLE, an online database of hundreds of stellar objects hosted by BDNYC, using Python, SQL, and AWS.
+            <li> 
+            Built ingestion and validation functions within Astrodb-Utils, the open-source Python package supporting SIMPLE, streamlining database updates and ensuring data integrity.
+            </li>
+            <li>
+            Analyzed James Webb Space Telescope substellar data using MCMC inverse methods on high-performance computing (HPC) clusters, managing several astrophysical experiments by implementing cluster optimization.
             </li>
           </p>
 
@@ -161,8 +165,9 @@ function App() {
         <p className="text-gray-600 mb-2">
         <li> Developed Julia modules for METIS, a Bayesian statistical analysis code (Dr. Lacy, 2023), enhancing parameterization, functionality, and user experience.
         </li>
+        <li> Ported core functionality of the METIS Bayesian inference codebase from legacy Python to modern, modular Julia, improving performance and maintainability.
+        </li>
         <li> Visualized exoplanet atmospheric models to compare Bayesian inference methods (MCMC vs. HMC) across 1D and 2D planetary models.</li>
-        <li> Collaborated with a team of 10 researchers to develop a Python package for Bayesian inference, improving data analysis and visualization.</li>
         </p>
       
       {/* Badges */}
@@ -362,7 +367,7 @@ function App() {
           </p>
           <button className = "project_button" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `cn-template.notion.site`;
+              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
             }}>
               Notion Template
           </button> 
