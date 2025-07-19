@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'; //changes layout 
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Badge from 'react-bootstrap/Badge';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -83,7 +82,7 @@ function App() {
               </div>
               </a>
 
-              <a href = "./images/CA_Navarrete_Resume.pdf">
+              <a href = "./images/CarolinaNavarrete_Resume.pdf">
               <div className="flex flex-col items-center hover:transform hover:translate-y-1">
                 <img src="./images/file-earmark-person-fill.svg" alt="Resume Logo" className="w-10 h-10" /> 
             </div>
@@ -232,22 +231,22 @@ function App() {
       <hr className="w-3/4 border-black inline-block align-middle align-left" />
 
         <p className = "mt-1 mb-1" > Python </p>
-        <ProgressBar variant="custom" now={80}  />
-     
-        <p className = "mt-1 mb-1"> Julia </p>
-        <ProgressBar variant="custom-2" now={70} />
+        <ProgressBar variant="custom-2" now={80}  />
 
         <p className = "mt-1 mb-1"> SQL </p>
-        <ProgressBar  variant="custom" now={70} />
+        <ProgressBar  variant="custom" now={65} />
 
         <p className = "mt-1 mb-1"> JavaScript </p>
-        <ProgressBar variant="custom-2" now={70}  />
+        <ProgressBar variant="custom-2" now={65}  />
 
         <p className = "mt-1 mb-1"> HTML/CSS </p>
-        <ProgressBar variant="custom" now={80}  />
+        <ProgressBar variant="custom" now={65}  />
+
+        <p className = "mt-1 mb-1"> Julia </p>
+        <ProgressBar variant="custom-2" now={50} />
 
         <p className = "mt-1 mb-1"> Java </p>
-        <ProgressBar variant="custom-2" now={80} />
+        <ProgressBar variant="custom" now={50} />
 
 
       <div className = "mt-5"> {/* Tech Stack */}
@@ -298,6 +297,13 @@ function App() {
           <span class="badge tag-mod">Postgres</span>
           <span class="badge tag-mod">HTML/CSS</span>
           <span class="badge tag-mod">Git</span>
+          <br></br>
+          <button className = "project_button_var2" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
+            }}>
+              GitHub
+          </button> 
         </div>
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
@@ -313,6 +319,13 @@ function App() {
           <span class="badge tag-mod">React</span>
           <span class="badge tag-mod">HTML/CSS</span>
           <span class="badge tag-mod">Git</span>
+
+          <button className = "project_button_var2" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
+            }}>
+              GitHub
+          </button> 
         </div>
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
@@ -327,6 +340,13 @@ function App() {
           <span class="badge tag-mod">Java</span>
           <span class="badge tag-mod">Processing</span>
           <span class="badge tag-mod">Linux</span>
+          <br></br>
+          <button className = "project_button_var2" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
+            }}>
+              GitHub
+          </button> 
         </div>
       </div>
       
@@ -404,7 +424,6 @@ function App() {
 <div id = "contact" className="p-1">
       <div className="p-10">
       <div className = "header-mod">
-      <h2 className="font-bold mb-4 lg:text-left"></h2>
       </div>
         <h4 className="text-3xl font-bold text-gray-900 mb-4 text-center lg:text-left">Contact Me</h4>
         <form className="w-full max-w-lg mx-auto mt-10">

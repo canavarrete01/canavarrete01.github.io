@@ -64,6 +64,7 @@ button {
   font-size: 1em;
   font-weight: 550;
   font-family: inherit;
+  font-display: center;
   letter-spacing: 1.5px;
   background-color: #a0b878 !important;
   /* background-color: #76953e4c !important; */
@@ -92,6 +93,19 @@ button.project_button {
   border: none !important;
 }
 
+button.project_button_var2 {
+  background-color: #a0b878 !important;
+  color:  #ffffff !important;
+  padding: 0.5em 3em;
+  margin: 0.2em;
+  margin-top: 25px;
+  display: inline-flex;
+  font-weight: bold;
+  /* font-size: 0.90rem; */
+  border-radius: 0.50rem !important;
+  box-shadow: #0000007d 2px 2px 4px;
+}
+
 icons {
   border-radius: 20px;
   border-color:#888;
@@ -114,21 +128,21 @@ code {
   padding: 0.5em 1em;
   border-radius: 0.50rem;
   font-size: 0.70rem;
-  margin-right: 0.5em;
+  margin-right: 0.7em;
   justify-content: center;
+  box-shadow: #1017107d 0 2px 4px;
 }
 
 .badge.tag-mod-skill {
   background-color: #2a2424;
-  color: #e7e4e1;
+  color: #eae8e6;
   padding: 0.5em 1em;
   margin: 0.3em;
   border-radius: 0.25rem;
   font-size: 0.75rem;
-  display:inline-flex
+  display:inline-flex;
 
 }
-
 
 .header-mod{
   background-color: #a0b878;
