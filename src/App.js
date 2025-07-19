@@ -6,8 +6,6 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Badge from 'react-bootstrap/Badge';
 
-
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -85,7 +83,7 @@ function App() {
               </div>
               </a>
 
-              <a href = "./images/Resume.pdf">
+              <a href = "./images/CA_Navarrete_Resume.pdf">
               <div className="flex flex-col items-center hover:transform hover:translate-y-1">
                 <img src="./images/file-earmark-person-fill.svg" alt="Resume Logo" className="w-10 h-10" /> 
             </div>
@@ -133,17 +131,17 @@ function App() {
 
           <p className="mt-1 text-gray-600 mb-2">
             <li>
+            Ingested JWST data into SIMPLE, an online database of hundreds of stellar objects hosted by BDNYC, using Python, SQL, and AWS.
+            </li>
+            <li> 
+            Built ingestion and validation functions within Astrodb-Utils, the open-source Python package supporting SIMPLE, streamlining database updates and ensuring data integrity.
+            </li>
+            <li>
             Analyzed James Webb Space Telescope substellar data using MCMC inverse methods on high-performance computing (HPC) clusters, managing several astrophysical experiments by implementing cluster optimization.
             </li>
-            <li>Ingested JWST data into SIMPLE, an online database of hundreds of stellar objects hosted by BDNYC, using Python, SQL, and AWS.
-            </li>
           </p>
-{/* 
-          <p className="text-gray-600 mb-4">
-            <strong>Skills:</strong> HPC cluster optimization, data analysis, database management, data ingestion, Python packaging, GitHub collaboration, science communication.
-          </p> */}
 
-          {/* <Badge bg="dark">Primary</Badge> */}
+          {/* Badges */}
           <div className="mt-3">
           <span class="badge tag-mod">Python</span>
           <span class="badge tag-mod">SQL</span>
@@ -167,14 +165,12 @@ function App() {
         <p className="text-gray-600 mb-2">
         <li> Developed Julia modules for METIS, a Bayesian statistical analysis code (Dr. Lacy, 2023), enhancing parameterization, functionality, and user experience.
         </li>
+        <li> Ported core functionality of the METIS Bayesian inference codebase from legacy Python to modern, modular Julia, improving performance and maintainability.
+        </li>
         <li> Visualized exoplanet atmospheric models to compare Bayesian inference methods (MCMC vs. HMC) across 1D and 2D planetary models.</li>
-        <li> Collaborated with a team of 10 researchers to develop a Python package for Bayesian inference, improving data analysis and visualization.</li>
         </p>
-
       
-      {/* <p className="text-gray-600 mb-4">
-        <strong>Skills:</strong> Python, Julia, Open Source Software, GitHub, Bayesian Inference, Data Visualization, Science Communication.
-      </p> */}
+      {/* Badges */}
       <div className="mt-3">
       <span class="badge tag-mod">Python</span>
       <span class="badge tag-mod">Julia</span>
@@ -186,7 +182,6 @@ function App() {
      </div>
      
       
-
       {/* Role #3 */}
       {/* Two column for data and location */}
       <div className="flex flex-col lg:flex-row w-full mb-2">
@@ -204,7 +199,8 @@ function App() {
           <li>Led Python boot camps, teaching data science essentials including Matplotlib, NumPy, and Conda environments.</li>
 
         </p>
-
+      
+      {/* Badges */}
       <div className="mt-3">
       <span class="badge tag-mod">Python</span>
       <span class="badge tag-mod">Science Communication</span>
@@ -371,7 +367,7 @@ function App() {
           </p>
           <button className = "project_button" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `cn-template.notion.site`;
+              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
             }}>
               Notion Template
           </button> 
@@ -403,7 +399,8 @@ function App() {
 
 <hr></hr>
 
-      {/* Contact Me Section */}
+
+{/* Contact Me Section */}
 <div id = "contact" className="p-1">
       <div className="p-10">
       <div className = "header-mod">
@@ -469,7 +466,7 @@ function App() {
 
 
 
-    {/* Footer */}
+{/* Footer */}
       <footer>
         <p>&copy; 2025</p>
         {/* add linked bootstrap icons  */}
