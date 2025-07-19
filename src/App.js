@@ -300,7 +300,7 @@ function App() {
           <br></br>
           <button className = "project_button_var2" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
+              window.location.href = `https://github.com/canavarrete01/HungryAustin`;
             }}>
               GitHub
           </button> 
@@ -322,7 +322,7 @@ function App() {
 
           <button className = "project_button_var2" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
+              window.location.href = `https://github.com/canavarrete01/canavarrete01.github.io`;
             }}>
               GitHub
           </button> 
@@ -343,7 +343,7 @@ function App() {
           <br></br>
           <button className = "project_button_var2" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `https://cn-template.notion.site/Home-Page-Example-65e63d059bfe4182953bcbe3c84fde57?pvs=74`;
+              window.location.href = `https://github.com/canavarrete01/FairyArcadeGame.git`;
             }}>
               GitHub
           </button> 
