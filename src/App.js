@@ -41,7 +41,7 @@ function App() {
           <img
             src="./images/photo.svg"  
             alt="Profile Picture"
-            className="mx-auto w-85 h-100 object-cover" // Adjust image styling as needed
+            className="mx-auto h-85 object-cover"
           />
         </div>
         {/* Right Column */}
@@ -110,9 +110,8 @@ function App() {
   <div className="flex flex-col lg:flex-row items-start justify-between">
     
     {/* Left Column: 3/4 width */}
-    <div className="w-full lg:w-3/4 p-4 text-center lg:text-left">
-    <h3 className="text-left">Experience</h3>
-      {/* <h3 className="text-3xl font-bold text-gray-900 mb-4">Experience</h3> */}
+    <div className="w-full lg:w-3/4 p-4 lg:text-left">
+    <h3 className="text-3xl text-left font-bold text-gray-900 ">Experience</h3>
       <div className="flex items-center justify-start">
         <hr className="w-3/4 border-black inline-block align-middle" />
       </div>
@@ -129,14 +128,12 @@ function App() {
           </h5>
 
           <p className="mt-1 text-gray-600 mb-2">
-            <li>
-            Ingested JWST data into SIMPLE, an online database of hundreds of stellar objects hosted by BDNYC, using Python, SQL, and AWS.
-            </li>
             <li> 
-            Built ingestion and validation functions within Astrodb-Utils, the open-source Python package supporting SIMPLE, streamlining database updates and ensuring data integrity.
+            Designed and implemented scalable backend ingestion pipelines using Python and SQL to populate SIMPLE, a stellar objects online database with 3000+ entries hosted on Amazon Web Services.
             </li>
+            <li> Contributed to ingestion and validation functions within Astrodb-Utils, the open-source Python package supporting SIMPLE, streamlining database updates and ensuring data integrity. </li>
             <li>
-            Analyzed James Webb Space Telescope substellar data using MCMC inverse methods on high-performance computing (HPC) clusters, managing several astrophysical experiments by implementing cluster optimization.
+            Led development and maintenance of a secure, privatized instance of the SIMPLE database hosted at the American Museum of Natural History, enabling internal researchers and select nationwide collaborators to manage, access, and visualize proprietary data. 
             </li>
           </p>
 
@@ -166,7 +163,7 @@ function App() {
         </li>
         <li> Ported core functionality of the METIS Bayesian inference codebase from legacy Python to modern, modular Julia, improving performance and maintainability.
         </li>
-        <li> Visualized exoplanet atmospheric models to compare Bayesian inference methods (MCMC vs. HMC) across 1D and 2D planetary models.</li>
+        <li> Profiled and optimized core functions to improve performance speed across HPC environments, implementing A/B benchmark testing to inform development, cutting down on computing time by ~30%.</li>
         </p>
       
       {/* Badges */}
@@ -227,7 +224,7 @@ function App() {
 
 
       <div className = "mt-5"> {/* Tech Stack */}
-      <h3 className="text-gray-900">Tech Stack</h3> 
+      <h3 className="text-3xl text-left font-bold text-gray-900 ">Tech Stack</h3>
       <hr className="w-3/4 border-black inline-block align-middle align-left" />
 
         <p className = "mt-1 mb-1" > Python </p>
@@ -250,7 +247,7 @@ function App() {
 
 
       <div className = "mt-5"> {/* Tech Stack */}
-      <h3 className="text-gray-900">Skills</h3> 
+      <h3 className="text-3xl text-left font-bold text-gray-900 ">Skills</h3>
       <hr className="w-3/4 border-black inline-block align-middle align-left" />
         <div className="">
           {/* <span class="badge tag-mod-skill">Software Developement</span> */}
@@ -281,29 +278,29 @@ function App() {
       <h2 className="font-bold mb-4 lg:text-left">Projects</h2>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
-      
-        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="../images/hungryaustin.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">Hungry Austin</h4>
+         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="../images/matchaweb.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">Matcha Madness NYC</h4>
           <p className="text-gray-600 mb-4">
-          Developed a Yelp-like web app that categorized Austin restaurants by cuisine, price, and location using food-based APIs.
-          Led front-end development, designing an intuitive UX/UI.
-          Optimized SQL queries and database schema, improving data retrieval speed and efficiency.
-          Implemented web scraping to enhance data accuracy and reduce API call latency.
-          
+          Developed a web app to find the best matcha in NYC using Google Maps API review data.
+          Built with React, Tailwind CSS, and JavaScript.
+          Hosted using Google Cloud Platform and MongoDB for data storage.
           </p>
-          <span class="badge tag-mod">SQL</span>
-          <span class="badge tag-mod">Python</span>
-          <span class="badge tag-mod">Postgres</span>
+          
+          <span class="badge tag-mod">Javascript</span>
           <span class="badge tag-mod">HTML/CSS</span>
-          <span class="badge tag-mod">Git</span>
+           <span class="badge tag-mod">Google Cloud Platform</span>
+            <span class="badge tag-mod">MongoDB</span>
+          <span class="badge tag-mod">React.js</span>
+          <span class="badge tag-mod">Node.js</span>
           <br></br>
           <button className = "project_button_var2" onClick={(e) => {
               e.preventDefault();
-              window.location.href = `https://github.com/canavarrete01/HungryAustin`;
+              window.location.href = `https://github.com/canavarrete01/MatchaMadness-NYC`;
             }}>
               GitHub
           </button> 
+
         </div>
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
@@ -351,20 +348,50 @@ function App() {
       </div>
       
       <div className="flex flex-col lg:flex-row items-center justify-center p-2">
-        {/* <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
-        <img src="./images/project1-image.svg" alt="Project 1 Image" className="mx-auto w-20 h-30 object-cover mb-4" />
-          <h4 className="text-3xl font-bold text-gray-900 mb-4">NYC Matcha Madness</h4>
+     <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+        <img src="../images/hungryaustin.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">Hungry Austin</h4>
           <p className="text-gray-600 mb-4">
-          Developed a web app to find the best matcha in NYC using Yelp and Beli API.
-          Ranked matcha shops based on user ratings and reviews against personal rankings.
-          Implemented a user-friendly interface for easy navigation and search functionality.
-          Takes in user recommendations for matcha shops and displays them on a map.
-          Displays my favorite shops on an interactive map that links to google maps.
-          Built with React, Tailwind CSS, and JavaScript.
-
-        <a href="/Matcha" className="text-blue-500 hover:underline">Check Out Site Here</a>
+          Developed a Yelp-like web app that categorized Austin restaurants by cuisine, price, and location using food-based APIs.
+          Led front-end development, designing an intuitive UX/UI.
+          
           </p>
-        </div> */}
+          <span class="badge tag-mod">SQL</span>
+          <span class="badge tag-mod">Python</span>
+          <span class="badge tag-mod">Postgres</span>
+          <span class="badge tag-mod">HTML/CSS</span>
+          <span class="badge tag-mod">Git</span>
+          <br></br>
+          <button className = "project_button_var2" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `https://github.com/canavarrete01/HungryAustin`;
+            }}>
+              GitHub
+          </button> 
+        </div>
+
+
+        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+       <img src="../images/vast.png" alt="Project 1 Image" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
+          <h4 className="text-3xl font-bold text-gray-900 mb-4">Visual Analytics Science and Technology (VAST) Mini Challenge </h4>
+          <p className="text-gray-600 mb-4">
+         Visualized environmental patterns in hydrological data through interactive visualizers and plots to prove a rising trend in water pollution levels in a reserve.
+          </p>
+          
+          <span class="badge tag-mod">Python</span>
+          <span class="badge tag-mod">NumPy</span>
+          <span class="badge tag-mod">DataFrames</span>
+          <span class="badge tag-mod">Data Visualization</span>
+          <br></br>
+          <button className = "project_button_var2" onClick={(e) => {
+              e.preventDefault();
+              window.location.href = `https://colab.research.google.com/drive/1GxtIeH3rGywEZKStImUmsNO20fs7LGSw#scrollTo=NbhTCsM2JnBi`;
+            }}>
+              GitHub
+          </button> 
+
+        </div>
+
 
       </div>
     </div>

@@ -1,18 +1,8 @@
-
-/* @import "tailwindcss"; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
+/* GLOBAL STYLES */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,15 +16,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -55,8 +36,8 @@ h1 {
   line-height: 1.1;
 }
 
+/* BUTTON STYLES */
 button {
-  /* all: unset; */
   border-radius: 15%!important; 
   border-width: 1.25px;
   border-color: #76953e80;
@@ -67,8 +48,6 @@ button {
   font-display: center;
   letter-spacing: 1.5px;
   background-color: #a0b878 !important;
-  /* background-color: #76953e4c !important; */
-  /* color: rgb(2, 11, 2)!important; */
   margin-right: 20px;
   border: none;
 }
@@ -77,9 +56,8 @@ button:hover {
   border-color: #dfe8d1;
   filter: drop-shadow(0 0 0.5em #dfe8d1);
   transform: translateY(3px);
-  /* background-color: #aecb7782; */
-
 }
+
 button.project_button {
   /* font-family: inherit; */
   letter-spacing: 0.50px;
@@ -94,9 +72,9 @@ button.project_button {
 }
 
 button.project_button_var2 {
-  background-color: #a0b878 !important;
-  color:  #ffffff !important;
-  padding: 0.5em 3em;
+  background-color: #2a2424 !important;
+  color: #e7e4e1 !important;
+  padding: 0.25em 3em;
   margin: 0.2em;
   margin-top: 25px;
   display: inline-flex;
@@ -106,6 +84,7 @@ button.project_button_var2 {
   box-shadow: #0000007d 2px 2px 4px;
 }
 
+/* ICONS */
 icons {
   border-radius: 20px;
   border-color:#888;
@@ -117,11 +96,15 @@ icons:hover {
   transform: translateY(3px);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* DIVIDER */
+.header-mod{
+  background-color: #a0b878;
+  color: #F6F7EB;
+  border-radius: 0.50rem;
+  padding-left: 5px;
 }
 
+/* BADGES */
 .badge.tag-mod {
   background-color: #666064;
   color: #F6F7EB;
@@ -144,13 +127,7 @@ code {
 
 }
 
-.header-mod{
-  background-color: #a0b878;
-  color: #F6F7EB;
-  border-radius: 0.50rem;
-  padding-left: 5px;
-}
-
+/* SKILL BAR STYLES */
 .bg-custom{
   background-color: #a0b878!important;
 }
@@ -179,6 +156,14 @@ code {
   margin-bottom: 5%;
 }
 
+/* TYPING ANIMATION */
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid #ffde59; 
+  animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
+}
 
 @keyframes typing {
   from { width: 0 }
@@ -190,18 +175,6 @@ code {
   50% { border-color: #ffde59 }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
 
 
