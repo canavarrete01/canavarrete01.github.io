@@ -19,7 +19,8 @@ function App() {
   return (
     <>
     {/* Color Palette: [ #F7EFDA, #BADD7F, #EFACF5, #3E8440, #710C21, #500F15, #1a1a1a, #f5acde ] */}
-     
+     {/* Change background to dark blue black color, change font to monospace or textbit */}
+     {/* Decide new color palette */}
      {/* Navigation Bar */}
       <div>
         <header>
@@ -37,6 +38,8 @@ function App() {
 <div id = "home" className="p-2 mt-10">
       <div className="flex flex-col lg:flex-row items-center justify-center flex-grow p-5 mt-10">
         {/* Left Column: Image */}
+        {/* Change image to a smaller side image, linkedin has your photo and change the github to match, no need for such a giant photo */}
+        {/* add color circle block behind it for a bit more dimension */}
         <div className="w-full lg:w-2/5 p-4 background-color: white">
           <img
             src="./images/photo.svg"  
@@ -45,6 +48,7 @@ function App() {
           />
         </div>
         {/* Right Column */}
+        {/* keep typing animation but change the blinker color, add some styling to the bio section and clarify it for the roles youre applying to */}
         <div className="w-full lg:w-3/5 p-4 text-left lg:text-left">
 
             {/* Typing Animation */}
@@ -60,6 +64,7 @@ function App() {
             </p>
 
             {/* Quick Links */}
+            {/* add some styling to these logos, change to rounded boxes */}
             <div className="mt-10 flex justify-start space-x-8"> {/* Flex container for images */}
               <a href = 'https://github.com/canavarrete01'>
               <div className="flex flex-col items-center hover:transform hover:translate-y-1"> 
@@ -73,8 +78,6 @@ function App() {
                  
                 </div>
                 </a>
-
-              
 
               <a href = "mailto:ca.navarrete01@gmail.com"> 
               <div className="flex flex-col items-center hover:transform hover:translate-y-1">
@@ -273,6 +276,7 @@ function App() {
 
 <div id = "projects" className="p-1">
       {/* Projects Section */}
+      {/* Change so that all photos are the same box sizes, each project will be an outlined card with the same height and width no matter text length */}
       <div className="p-10 mt-25">
       <div className = "header-mod">
       <h2 className="font-bold mb-4 lg:text-left">Projects</h2>
@@ -399,6 +403,7 @@ function App() {
 </div>
 
 <div id = "extra" className="p-1">
+  {/* continue with the computer display method but put into cards as well or have the descriptions be boxesfloating beneath */}
 <div className="p-10 mt-25">
       <div className = "header-mod">
       <h2 className="font-bold mb-4 lg:text-left">Extra</h2>
@@ -448,6 +453,7 @@ function App() {
 
 
 {/* Contact Me Section */}
+{/* make this section all one color that is seperate from the page or at least a fade into color at the top */}
 <div id = "contact" className="p-1">
       <div className="p-10">
       <div className = "header-mod">
