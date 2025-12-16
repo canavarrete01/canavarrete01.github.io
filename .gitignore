@@ -1,0 +1,11 @@
+# Modules
+node_modules
+package-lock.json
+
+# Testing
+reportWebVitals.js
+setupTests.js
+
+#Extra 
+.DS_Store
+creatorNotes.md
