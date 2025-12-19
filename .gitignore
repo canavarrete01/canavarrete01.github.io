@@ -3,8 +3,10 @@ node_modules
 package-lock.json
 
 # Testing
-reportWebVitals.js
-setupTests.js
+src/reportWebVitals.js
+src/App.test.js
+src/setupTests.js
+
 
 #Extra 
 .DS_Store

@@ -5,83 +5,107 @@
 /* GLOBAL STYLES */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: #888;
-  background-color: #f4f0e3;
+   /* backgrounds */
+  --black-bg: #2A2029;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* texts */
+  --offwhite: #f8f6e8;
+  --black: #000000;
+
+  /* accents */
+  --light-purple: #8F80BF;
+  --dark-purple: #5C4E8B;
+  --pink: #E6B1C5;
+  --yellow: #FEFDBD;
+  --light-orange: #FFE5AE;
+   --button-purple: #F3EDF7;
+   --button-purple-hover: #E8DEF8;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(180deg, var(--black-bg) 90%, var(--light-purple) 110%);
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background-color: var(--black-bg);
+  width: 100%;
+}
 nav {
-  background-color: #a0b878;
+  background-color: transparent;
   height: 50px;
+  box-shadow: 0 2px 8px var(--button-purple-hover);
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding: 0.25rem;
 }
 
+/* TEXT STYLING */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+p.secondary-text {
+  color: #DCC7E8;
+}
+
+h2.divider {
+  color: #372c36;
+  letter-spacing: 2px;
+}
+
 /* BUTTON STYLES */
 button {
   border-radius: 15%!important; 
-  border-width: 1.25px;
-  border-color: #76953e80;
   padding: 0.6em 1.5em; 
   font-size: 1em;
-  font-weight: 550;
+  font-weight: 400;
   font-family: inherit;
   font-display: center;
   letter-spacing: 1.5px;
-  background-color: #a0b878 !important;
   margin-right: 20px;
-  border: none;
 }
 
 button:hover {
-  border-color: #dfe8d1;
-  filter: drop-shadow(0 0 0.5em #dfe8d1);
-  transform: translateY(3px);
+  border-color: var(--offwhite);
+  filter: drop-shadow(0 0 0.5em var(--offwhite));
 }
 
 button.project_button {
   /* font-family: inherit; */
-  letter-spacing: 0.50px;
+  letter-spacing: 0.25px;
   background-color: #2a2424 !important;
   color: #e7e4e1 !important;
   padding: 0.5em 1em;
-  margin: 0.3em;
+  margin: 0.2em;
   border-radius: 0.25rem !important;
   font-size: 0.80rem;
   display: inline-flex;
-  border: none !important;
+  border-width: 1.00px;
+  border-color: var(--offwhite);
 }
 
 button.project_button_var2 {
-  background-color: #2a2424 !important;
+  /* background-color: #2a2424 !important; */
   color: #e7e4e1 !important;
   padding: 0.25em 3em;
   margin: 0.2em;
   margin-top: 25px;
   display: inline-flex;
-  font-weight: bold;
-  /* font-size: 0.90rem; */
+  letter-spacing: 2px;
   border-radius: 0.50rem !important;
-  box-shadow: #0000007d 2px 2px 4px;
+  box-shadow: #c5c4c47d 2px 2px 4px;
+  border-width: 1.00px;
+  border-color: var(--offwhite);
 }
 
 /* ICONS */
@@ -98,7 +122,7 @@ icons:hover {
 
 /* DIVIDER */
 .header-mod{
-  background-color: #a0b878;
+  background-color: var(--button-purple-hover);
   color: #F6F7EB;
   border-radius: 0.50rem;
   padding-left: 5px;
@@ -106,22 +130,25 @@ icons:hover {
 
 /* BADGES */
 .badge.tag-mod {
-  background-color: #666064;
+  /* background-color: #383137; */
   color: #F6F7EB;
   padding: 0.5em 1em;
   border-radius: 0.50rem;
   font-size: 0.70rem;
   margin-right: 0.7em;
   justify-content: center;
+  border-color: var(--offwhite);
+  border-width: 0.50px;
   box-shadow: #1017107d 0 2px 4px;
 }
 
 .badge.tag-mod-skill {
-  background-color: #2a2424;
+  background-color: #383636;
   color: #eae8e6;
   padding: 0.5em 1em;
   margin: 0.3em;
-  border-radius: 0.25rem;
+  border-color: var(--offwhite);
+  border-width: 0.50px;
   font-size: 0.75rem;
   display:inline-flex;
 
@@ -129,18 +156,18 @@ icons:hover {
 
 /* SKILL BAR STYLES */
 .bg-custom{
-  background-color: #a0b878!important;
+  background-color: #9AA3E6!important;
 }
 
 .bg-custom-2{
-  background-color: #fea3b5!important;
+  background-color: #DCC7E8!important;
 }
 
 .typing-animation {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  border-right: .15em solid #ffde59; 
+  border-right: .15em solid var(--offwhite); 
   animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
 }
 
@@ -161,7 +188,7 @@ icons:hover {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  border-right: .15em solid #ffde59; 
+  border-right: .15em solid var(--offwhite); 
   animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
 }
 
@@ -172,7 +199,7 @@ icons:hover {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #ffde59 }
+  50% { border-color:var(--offwhite) }
 }
 
 

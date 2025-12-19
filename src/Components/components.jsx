@@ -1,10 +1,9 @@
 import React from "react";
 
 export function Button({ children, variant = "default", onClick }) {
-  const base = "p-2 mt-1 mb-1 mx-1 rounded-full transition-all duration-200 "; 
+  const base = "p-1.5 mb-1 mx-1 rounded transition-all duration-200 text-white"; 
   const styles = {
-    default: "text-white hover:bg-gray-200",
-    ghost: "text-white", 
+    default: "",
   };
 
   return (
