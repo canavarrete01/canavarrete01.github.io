@@ -54,7 +54,7 @@ function App() {
               
             </p>
             <p className="mb-4 text-white">
-              This serves as my personal website, as well as my portfolio. Feel free to explore my projects or or get in touch with me! 
+              This serves as my personal website, as well as my portfolio. Feel free to explore my projects or get in touch with me! 
             </p>
 
             {/* Quick Links */}
@@ -275,7 +275,7 @@ function App() {
       <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
          <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="../images/matchaweb.png" alt="Matcha Madness NYC web app screenshot" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
-          <h4 className="text-2xl font-bold text-white mb-4">Matcha Madness NYC</h4>
+          <h4 className="text-2xl font-bold text-white mb-2">Matcha Madness NYC</h4>
           <p className="text-white mb-4">
           Developed a web app to find the best matcha in NYC using Google Maps API review data.
           Built with React, Tailwind CSS, and JavaScript.
@@ -300,7 +300,7 @@ function App() {
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/website.png" alt="Portfolio website screenshot" className="mx-auto object-cover mb-4" />
-          <h4 className="text-2xl font-bold text-white mb-4">This Website!</h4>
+          <h4 className="text-2xl font-bold text-white mb-2">This Website!</h4>
           <p className="text-white mb-4">
         Handmade portfolio website using React, Tailwind CSS, and Javascript. 
         Implemented responsive design for optimal viewing.
@@ -322,7 +322,7 @@ function App() {
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/gamedev.png" alt="Arcade game screenshot" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
-          <h4 className="text-2xl font-bold text-white mb-4">Game Development</h4>
+          <h4 className="text-2xl font-bold text-white mb-2">Game Development</h4>
           <p className="text-white mb-4">
           Designed and built an endless runner arcade game inspired by Jetpack Joyride.
           Implemented motion mechanics, user interactions, and dynamic graphics.
@@ -345,7 +345,7 @@ function App() {
       <div className="flex flex-col lg:flex-row items-center justify-center p-2">
      <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="../images/hungryaustin.png" alt="Hungry Austin web app screenshot" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
-          <h4 className="text-2xl font-bold text-white mb-4">Hungry Austin</h4>
+          <h4 className="text-2xl font-bold text-white mb-2">Hungry Austin</h4>
           <p className="text-white mb-4">
           Developed a Yelp-like web app that categorized Austin restaurants by cuisine, price, and location using food-based APIs.
           Led front-end development, designing an intuitive UX/UI.
@@ -368,7 +368,7 @@ function App() {
 
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
        <img src="../images/vast.png" alt="VAST Challenge data visualization" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
-          <h4 className="text-2xl font-bold text-white mb-4">Visual Analytics Science and Technology (VAST) Mini Challenge </h4>
+          <h4 className="text-2xl font-bold text-white mb-2">Visual Analytics Science and Technology (VAST) Mini Challenge </h4>
           <p className="text-white mb-4">
          Visualized environmental patterns in hydrological data through interactive visualizers and plots to prove a rising trend in water pollution levels in a reserve.
           </p>
@@ -404,7 +404,7 @@ function App() {
         {/* Notion Template */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/notion.png" alt="Notion template preview" className="mx-auto object-cover mb-4" />
-          <h4 className="text-2xl font-bold text-white mb-4">Notion Template</h4>
+          <h4 className="text-2xl font-bold text-white mb-2">Notion Template</h4>
           <p className="text-white mb-4">
           A notion template for organizing your life, work, and projects. Save and edit to your heart's content!
           </p>
@@ -421,7 +421,7 @@ function App() {
         {/* VS Code Theme */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/vscode.png" alt="VS Code theme preview" className="mx-auto object-cover mb-4" />
-          <h4 className="text-2xl font-bold text-white mb-4">VS Code Custom Theme</h4>
+          <h4 className="text-2xl font-bold text-white mb-2">VS Code Custom Theme</h4>
           <p className="text-white mb-4">
           A neon space-themed dark VS code theme for all your coding needs.
           Find through the VS Code extensions tab or through the link below!
