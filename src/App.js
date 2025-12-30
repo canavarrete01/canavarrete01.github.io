@@ -243,7 +243,6 @@ function App() {
       <h3 className="text-3xl text-left font-bold text-white ">Skills</h3>
       <hr className="w-3/4 border-white inline-block align-middle align-left" />
         <div className="">
-          {/* <span class="badge tag-mod-skill">Software Developement</span> */}
           <span class="badge tag-mod-skill">Open Source Software Dev</span>
           <span class="badge tag-mod-skill">Data Engineering</span>
           <span class="badge tag-mod-skill">Back End Engineering</span>
@@ -267,7 +266,6 @@ function App() {
 
 <div id = "projects" className="p-1">
       {/* Projects Section */}
-      {/* Change so that all photos are the same box sizes, each project will be an outlined card with the same height and width no matter text length */}
       <div className="p-10 mt-25">
       <div className = "header-mod">
       <h2 className="divider mb-4 lg:text-left">Projects</h2>
@@ -394,7 +392,6 @@ function App() {
 </div>
 
 <div id = "extra" className="p-1">
-  {/* continue with the computer display method but put into cards as well or have the descriptions be boxesfloating beneath */}
 <div className="p-10 mt-25">
       <div className = "header-mod">
       <h2 className="divider mb-4 lg:text-left">More</h2>
@@ -444,7 +441,6 @@ function App() {
 
 
 {/* Contact Me Section */}
-{/* make this section all one color that is seperate from the page or at least a fade into color at the top */}
 <div id = "contact" className="p-1">
       <div className="p-10">
       <div className = "header-mod">
@@ -499,7 +495,6 @@ function App() {
 {/* Footer */}
       <footer>
         <p>&copy; 2025</p>
-        {/* add linked bootstrap icons  */}
       </footer>
 
     </>
