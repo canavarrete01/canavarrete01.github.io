@@ -397,7 +397,6 @@ function App() {
       <h2 className="divider mb-4 lg:text-left">More</h2>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center p-2">
-
         {/* Notion Template */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/notion.png" alt="Notion template preview" className="mx-auto object-cover mb-4" />
@@ -411,8 +410,6 @@ function App() {
             }}>
               Notion Template
           </button> 
-          
-
         </div>
 
         {/* VS Code Theme */}
