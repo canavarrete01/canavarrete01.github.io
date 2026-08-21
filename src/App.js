@@ -49,8 +49,8 @@ function App() {
             <h2 className = "typing-animation mb-3"> Welcome to My Website!  </h2>
 
             <p className="mb-4 text-white">
-              Hello! I'm <strong>Carolina Navarrete</strong>, a software engineer specializing in full-stack development and data engineering. 
-              My background includes scientific software development and developing open source technologies. I am passionate about building user-friendly applications and tools that help people innovate and solve problems.
+              Hello! I'm <strong>Carolina Navarrete</strong>, a data professional and software developer.
+              My background includes scientific software development, developing open source technologies, and web development. I am passionate about building user-friendly applications and tools that help people innovate and solve problems.
               
             </p>
             <p className="mb-4 text-white">
@@ -101,7 +101,8 @@ function App() {
 <div className="p-10 mt-30">
   
   <div className = "header-mod">
-  <h2 className="divider mb-4 lg:text-left">Resume</h2>
+    <p></p>
+  {/* <h2 className="divider mb-4 lg:text-left">Resume</h2> */}
   </div>
 
   <div className="flex flex-col lg:flex-row items-start justify-between">
@@ -112,6 +113,42 @@ function App() {
       <div className="flex items-center justify-start">
         <hr className="w-3/4 border-white inline-block align-middle" />
       </div>
+
+      {/* Role #0 */}
+      <div className = "flex flex-col lg:flex-row w-/4 mb-10">
+        <div className="w-full lg:w-1/6 text-left lg:text-left">
+        <p className="text-white datelocation-mod2">July 2026 to Today</p>
+        <p className = "text-white datelocation-mod">New York, NY</p>
+        </div>
+        <div className="w-full lg:w-5/6 text-left lg:text-left">
+          <h5 className="text-white">
+          Data Management Specialist, Weill Cornell Medicine (ITS Department)
+          </h5>
+
+          <p className="mt-1 text-white mb-2">
+            <li> 
+            Manage persons & project database for over 100+ medical research projects hosted at Weill Cornell Medicine, ensuring data integrity and compliance with institutional policies.
+            </li>
+            <li>
+              Onboard users onto HPC cluster environments, providing support for data management and analysis tools.
+            </li>
+            <li>  
+              Conduct regular review for code and data files (Python, SAS, and R) to ensure compliance with institutional policies and best practices.
+            </li>
+            
+          </p>
+
+          {/* Badges */}
+          <div className="mt-3">
+          <span class="badge tag-mod">Scientific Software Liscencing</span>
+          <span class="badge tag-mod">HPC</span>
+          <span class="badge tag-mod">Data Management</span>
+          <span class="badge tag-mod">Database Administration</span>
+          </div>
+          </div>
+      </div>
+      
+
 
       {/* Role #1 */}
       <div className = "flex flex-col lg:flex-row w-/4 mb-10">
@@ -267,11 +304,17 @@ function App() {
 <div id = "projects" className="p-1">
       {/* Projects Section */}
       <div className="p-10 mt-25">
-      <div className = "header-mod">
-      <h2 className="divider mb-4 lg:text-left">Projects</h2>
-      </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center p-10 mt-10">
-         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+      {/* Header */}
+        <h3 className="text-3xl text-left font-bold text-white ">Projects</h3>
+        <div className="flex items-center justify-start">
+          <hr className="w-full border-white inline-block align-middle mb-4" />
+        </div>
+
+
+
+      <div className="flex flex-col lg:flex-row items-center justify-center p-2">
+        {/* Matcha Madness NYC */}
+        <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="../images/matchaweb.png" alt="Matcha Madness NYC web app screenshot" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
           <h4 className="text-2xl font-bold text-white mb-2">Matcha Madness NYC</h4>
           <p className="text-white mb-4">
@@ -296,6 +339,7 @@ function App() {
 
         </div>
 
+        {/* Portfolio Website */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/website.png" alt="Portfolio website screenshot" className="mx-auto object-cover mb-4" />
           <h4 className="text-2xl font-bold text-white mb-2">This Website!</h4>
@@ -305,10 +349,12 @@ function App() {
         Utilized GitHub for version control and open source collaboration for future users of template.
 
           </p>
+
           <span class="badge tag-mod">Javascript</span>
           <span class="badge tag-mod">React</span>
           <span class="badge tag-mod">HTML/CSS</span>
           <span class="badge tag-mod">Git</span>
+          <br></br>
 
           <button className = "project_button_var2" onClick={(e) => {
               e.preventDefault();
@@ -318,6 +364,7 @@ function App() {
           </button> 
         </div>
 
+        {/* Game Development */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="./images/gamedev.png" alt="Arcade game screenshot" className="mx-auto object-cover mb-4 w-100 h-70 rounded" />
           <h4 className="text-2xl font-bold text-white mb-2">Game Development</h4>
@@ -339,9 +386,11 @@ function App() {
           </button> 
         </div>
       </div>
-      
+
+      {/* Second Row */}
       <div className="flex flex-col lg:flex-row items-center justify-center p-2">
-     <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
+      {/* Hungry Austin */}
+      <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
         <img src="../images/hungryaustin.png" alt="Hungry Austin web app screenshot" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
           <h4 className="text-2xl font-bold text-white mb-2">Hungry Austin</h4>
           <p className="text-white mb-4">
@@ -363,7 +412,7 @@ function App() {
           </button> 
         </div>
 
-
+        {/* VAST Challenge */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
        <img src="../images/vast.png" alt="VAST Challenge data visualization" className="mx-auto w-100 h-70 rounded object-cover mb-4" />
           <h4 className="text-2xl font-bold text-white mb-2">Visual Analytics Science and Technology (VAST) Mini Challenge </h4>
@@ -393,9 +442,12 @@ function App() {
 
 <div id = "extra" className="p-1">
 <div className="p-10 mt-25">
-      <div className = "header-mod">
-      <h2 className="divider mb-4 lg:text-left">More</h2>
+      {/* Header */}
+      <h3 className="text-3xl text-left font-bold text-white ">Extra</h3>
+      <div className="flex items-center justify-start">
+        <hr className="w-full border-white inline-block align-middle mb-4" />
       </div>
+
       <div className="flex flex-col lg:flex-row items-center justify-center p-2">
         {/* Notion Template */}
         <div className="w-full lg:w-1/3 p-4 text-center lg:text-left">
